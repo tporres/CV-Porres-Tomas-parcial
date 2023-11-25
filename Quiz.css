@@ -36,6 +36,29 @@ html{
     max-width: 100%;
   }
 
+  .contenedor-preguntas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(11, 20, 22, 0.5);
+    border-radius: 200px;
+    width: 100%;
+    height: auto;
+  }
+
+  .preguntas {
+    margin: 20px auto; 
+    padding: 20px;
+    text-align: center;
+    height: 100%;
+    max-width: 600px; 
+    width: 100%; 
+    color: rgb(255, 255, 255); 
+    font-family: "Inter", sans-serif; 
+    font-size: 24px; 
+  }
+  
+  
 .question{
   font-size: 30px;
   margin-bottom: 10px;

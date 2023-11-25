@@ -75,30 +75,30 @@
     const submitButton = document.getElementById('submit');
     const myQuestions = [
       {
-        question: "Who invented JavaScript?",
+        question: "¿Que carrera estoy estudiando?",
         answers: {
-          a: "Douglas Crockford",
-          b: "Sheryl Sandberg",
-          c: "Brendan Eich"
+          a: "Abogacia",
+          b: "Gastronomía",
+          c: "Licenciatura en sistemas"
         },
         correctAnswer: "c"
       },
       {
-        question: "Which one of these is a JavaScript package manager?",
+        question: "¿En donde realice un work and travel?",
         answers: {
-          a: "Node.js",
-          b: "TypeScript",
-          c: "npm"
+          a: "Paris, Francia",
+          b: "Barcelona, España",
+          c: "Virginia, USA"
         },
         correctAnswer: "c"
       },
       {
-        question: "Which tool can you use to ensure code quality?",
+        question: "¿Que idiomas hablo?",
         answers: {
-          a: "Angular",
-          b: "jQuery",
-          c: "RequireJS",
-          d: "ESLint"
+          a: "Frances y español",
+          b: "Aleman y español",
+          c: "Solo español",
+          d: "Español e ingles"
         },
         correctAnswer: "d"
       }
